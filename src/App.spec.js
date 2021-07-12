@@ -3,7 +3,7 @@ import * as React from 'react'
 import { mount } from '@cypress/react'
 import App from './App'
 
-it('renders learn react link', () => {
+it('renders the header', () => {
   mount(<App />)
-  cy.contains(/learn react/i)
+  cy.contains(/Wikimedia image browser/i)
 })
