@@ -29,8 +29,5 @@ yarn cypress open-ct
 
 # Tasks
 Let's build a wikimedia image search!
-Here's the endpoint: 
-```
-https://commons.wikimedia.org/w/api.php\?format\=json\&action\=query\&generator\=images\&prop\=imageinfo\&gimlimit\=500\&redirects\=1\&titles\=Cat\&iiprop\=timestamp\|user\|userid\|comment\|canonicaltitle\|url\|size\|dimensions\|sha1\|mime\|thumbmime\|mediatype\|bitdepth
-```
-We can use whatever library you prefer to make your requests. We use axios in most of our code, but feel free to use whatever you're comfortable with.
+Here's some documentation about the endpoint: https://api.wikimedia.org/wiki/API_reference/Core/Search/Search_content \
+Use whatever library you prefer to make your requests. We use axios in most of our code, but feel free to use whatever you're comfortable with.
